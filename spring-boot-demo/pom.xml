@@ -76,7 +76,7 @@
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-parameter-names</artifactId>
 		</dependency>
-		
+
 		<!-- redis -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
