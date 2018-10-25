@@ -67,12 +67,12 @@
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-parameter-names</artifactId>
 		</dependency>
-		<!--&lt;!&ndash; 分页插件 &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>com.github.pagehelper</groupId>-->
-			<!--<artifactId>pagehelper-spring-boot-starter</artifactId>-->
-			<!--<version>1.2.5</version>-->
-		<!--</dependency>-->
+
+		<!-- redis -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
 		
 		<!-- alibaba的druid数据库连接池 -->
 		<dependency>
